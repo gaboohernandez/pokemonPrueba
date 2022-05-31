@@ -11,7 +11,6 @@ let PokemonesIniciales =
     {name:'Squirtle', type:"agua", vit:100}    
     ];
 
-    // alert(PokemonesIniciales.reduce((p,n)=>p.name+"\n"+n.name))
     for (let i = 0; i < PokemonesIniciales.length; i++) {
    console.log(`Teclea ${i} para ${PokemonesIniciales[i].name}`)
     }
@@ -39,8 +38,6 @@ let PokemonesIniciales =
               }
       }while(resp!=="s" && resp!=="n");
 
-    //   let pokemonRivalSelected = PokemonesIniciales[Math.floor(Math.random() * 2)];
-    //   alert(`tu rival ha seleccionado a ${pokemonRivalSelected.name}`)
       if (resp==="s") {
 
         let pokemonRivalSelected = PokemonesIniciales[Math.floor(Math.random() * 2)];

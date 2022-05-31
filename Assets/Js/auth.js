@@ -14,7 +14,6 @@ do{
             break;
         case 'n':
             console.log("por favor corrija su nombre")
-            // console.log( user = prompt('por favor corrija su nombre'))
         break;
     }
 }while(true);
